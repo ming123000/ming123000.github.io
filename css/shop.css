@@ -1,0 +1,41 @@
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line > .left{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.line > .right{
+    font-size: 14px;
+
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items > .item{
+    margin:10px;
+    margin:20px 0;
+    width:calc(33.33% - 40px);
+}
+
+.item > img{
+    width:100%;
+}
+
+.item > .good_info{
+    margin:8px 0;
+    font-size: 25px;
+}
+.item > .price{
+    font-size: 25px;
+    color: #608087;
+}
+
